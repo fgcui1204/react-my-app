@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Clock from "./Components/Clock";
+import Greeting from "./Components/Greating";
 
 const name = "fugang"
 
@@ -9,6 +10,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Clock name = {name} />
+
+        <Greeting isLoggedIn = {true}></Greeting>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
