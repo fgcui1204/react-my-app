@@ -1,10 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import Clock from "./Components/Clock";
+
+const name = "fugang"
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <Clock name = {name} />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
