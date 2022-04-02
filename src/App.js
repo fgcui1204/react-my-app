@@ -2,8 +2,10 @@ import logo from './logo.svg';
 import './App.css';
 import Clock from "./Components/Clock";
 import Greeting from "./Components/Greating";
+import {NumberList} from "./Components/NumberList";
 
 const name = "fugang"
+const numbers = [1,2,3,4,5]
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
         <Clock name = {name} />
 
         <Greeting isLoggedIn = {true}></Greeting>
+        <NumberList numbers = {numbers}></NumberList>
+
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
