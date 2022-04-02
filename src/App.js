@@ -4,6 +4,7 @@ import Clock from "./Components/Clock";
 import Greeting from "./Components/Greating";
 import {NumberList} from "./Components/NumberList";
 import InputForm from "./Components/InputForm";
+import SelectForm from "./Components/SelectForm";
 
 const name = "fugang"
 const numbers = [1,2,3,4,5]
@@ -18,6 +19,7 @@ function App() {
         <NumberList numbers = {numbers}></NumberList>
 
         <InputForm/>
+        <SelectForm />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
