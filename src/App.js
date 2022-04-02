@@ -3,6 +3,7 @@ import './App.css';
 import Clock from "./Components/Clock";
 import Greeting from "./Components/Greating";
 import {NumberList} from "./Components/NumberList";
+import InputForm from "./Components/InputForm";
 
 const name = "fugang"
 const numbers = [1,2,3,4,5]
@@ -16,6 +17,7 @@ function App() {
         <Greeting isLoggedIn = {true}></Greeting>
         <NumberList numbers = {numbers}></NumberList>
 
+        <InputForm/>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
