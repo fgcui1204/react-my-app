@@ -5,6 +5,7 @@ import Greeting from "./Components/Greating";
 import {NumberList} from "./Components/NumberList";
 import InputForm from "./Components/InputForm";
 import SelectForm from "./Components/SelectForm";
+import EffectHook from "./Components/EffectHook";
 
 const name = "fugang"
 const numbers = [1,2,3,4,5]
@@ -20,6 +21,8 @@ function App() {
 
         <InputForm/>
         <SelectForm />
+
+        <EffectHook />
       </header>
     </div>
   );
